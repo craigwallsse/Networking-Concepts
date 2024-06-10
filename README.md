@@ -30,11 +30,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 <img src="https://i.imgur.com/x8RD0qk.jpeg" height="80%" width="80%" alt="Using Wireshark to filter for ICMP traffic"/>
+<img src="https://i.imgur.com/hChy0Hi.jpeg" height="80%" width="80%" alt="Configure Outboud Rules In VM2"/>
+<img src="https://i.imgur.com/QHeSUFP.jpeg" height="80%" width="80%" alt="ICMP Traffic Timed Out"/>  
 </p>
 <p>
 To analyze network connectivity between a Windows 10 Virtual Machine (VM) and an Ubuntu VM, I first connected to the Windows 10 VM via Remote Desktop. Once connected, I installed Wireshark within the Windows 10 VM. After opening Wireshark, I filtered the traffic to display only ICMP packets. Next, I retrieved the private IP address of the Ubuntu VM and attempted to ping it from the Windows 10 VM, observing the ping requests and replies in Wireshark. I then used the Windows 10 VM's command line to ping a public website, such as www.google.com, and monitored the traffic in Wireshark. Subsequently, I initiated a perpetual ping from the Windows 10 VM to the Ubuntu VM. Afterward, I accessed the Network Security Group associated with the Ubuntu VM and disabled incoming ICMP traffic. Upon returning to the Windows 10 VM, I observed the changes in ICMP traffic in Wireshark and the command line ping activity. Once connectivity was verified, I re-enabled ICMP traffic for the Network Security Group. Lastly, I stopped the perpetual ping activity to conclude the analysis by using ctrl + c.<br />
 
-<h2>Observing DHCP Traffic</h2>
+<h2>Observing SSH Traffic</h2>
 <p>
 <img src="https://i.imgur.com/q7I4xtL.jpeg" height="80%" width="80%" alt="SSH Traffic on Wireshark"/>
 </p>
