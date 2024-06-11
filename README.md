@@ -41,7 +41,7 @@ To analyze network connectivity between a Windows 10 Virtual Machine (VM) and an
 <img src="https://i.imgur.com/q7I4xtL.jpeg" height="80%" width="80%" alt="SSH Traffic on Wireshark"/>
 </p>
 <p>
-To analyze SSH traffic in Wireshark, first filter for SSH traffic. On your Windows 10 VM, initiate an SSH connection to my Ubuntu VM using its private IP address. Once connected, I entered commands such as the username and password in the Linux SSH session. I observed the SSH traffic in Wireshark, which showed the data exchange between the two machines. Finally, I exited the SSH connection by typing 'exit' and pressing [Enter].
+To analyze SSH traffic in Wireshark, I first filtered for SSH traffic. On my Windows 10 VM, initiated an SSH connection to my Ubuntu VM using its private IP address. Once connected, I entered commands such as the username and password in the Linux SSH session. I observed the SSH traffic in Wireshark, which showed the data exchange between the two machines. Finally, I exited the SSH connection by typing 'exit' and pressing [Enter].
 </p>
 <br />
 
