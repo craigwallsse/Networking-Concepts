@@ -34,8 +34,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 To analyze network connectivity between a Windows 10 Virtual Machine (VM) and an Ubuntu VM, I first connected to the Windows 10 VM via Remote Desktop. Once connected, I installed Wireshark within the Windows 10 VM. After opening Wireshark, I filtered the traffic to display only ICMP packets. Next, I retrieved the private IP address of the Ubuntu VM and attempted to ping it from the Windows 10 VM, observing the ping requests and replies in Wireshark. Subsequently, I initiated a perpetual ping from the Windows 10 VM to the Ubuntu VM.
 </p>
+<br>
+<br>
 
-<p>
+<h2>Configuring Inbound Rules in Azure</h2><p>
 <img src="https://i.imgur.com/hChy0Hi.jpeg" height="80%" width="80%" alt="Configure Outboud Rules In VM2"/>
 <img src="https://i.imgur.com/QHeSUFP.jpeg" height="80%" width="80%" alt="ICMP Traffic Timed Out"/>  
 </p>
