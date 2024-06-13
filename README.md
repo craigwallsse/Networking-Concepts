@@ -87,6 +87,6 @@ In Wireshark, I set the filter to display only RDP traffic using the command `tc
 <img src="https://i.imgur.com/91MbfPX.jpeg" width="80%" alt="Wireshark filter for DHCP traffic"/>
 </p>
 <p>
-In Wireshark, I set the filter to display only RDP traffic using the command `tcp.port == 3389`. The immediate, non-stop spam of traffic was observed. This continuous traffic was due to the RDP protocol constantly transmitting a live stream from one computer to another, resulting in a steady flow of data being shown regardless of specific user activity.
+After executing all of the commands I made sure to close all of the applications and most importantly delete all of the resource groups created during the lab so I did not waste any resources in Azure. 
 </p>
 <br />
